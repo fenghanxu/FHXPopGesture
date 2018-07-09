@@ -1,0 +1,6 @@
+framework module FHXPopGesture {
+  umbrella header "FHXPopGesture-umbrella.h"
+
+  export *
+  module * { export * }
+}

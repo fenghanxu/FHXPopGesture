@@ -1,0 +1,16 @@
+PODS:
+  - FHXPopGesture (0.1.0)
+
+DEPENDENCIES:
+  - FHXPopGesture (from `../`)
+
+EXTERNAL SOURCES:
+  FHXPopGesture:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FHXPopGesture: 497c79a17795be6e0726558ad44676d3f2d6c785
+
+PODFILE CHECKSUM: 7efa73b587fa631181bcd1e0efb2994fc891a4cd
+
+COCOAPODS: 1.4.0

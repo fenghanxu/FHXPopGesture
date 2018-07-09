@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FHXPopGesture_Example' do
+  pod 'FHXPopGesture', :path => '../'
+
+  target 'FHXPopGesture_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

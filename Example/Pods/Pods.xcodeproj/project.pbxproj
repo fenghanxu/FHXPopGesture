@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04818EBA590DA2088137FC606C552536 /* PopGesture+delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C1A91AD1E7D544A0DDA4F5272A5EF0 /* PopGesture+delegate.swift */; };
+		2540C1337FD7C5E3F2C4E012C7665F5D /* FHXPopGesture-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F5DC281256775489D086417CDE192FA /* FHXPopGesture-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		557D8EB33C3600E274E75F4B859E3B61 /* Pods-FHXPopGesture_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5EECCAB32832D9C88AD2F961B6B15E /* Pods-FHXPopGesture_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		601F0B2AE1ADD32EE902F45A55A39DE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		6184AC94C264D75955EC685CD0EE8F9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		7C9D12193CAB1A31E62A2CE103DFC3E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		7D69AFADB1D443B726A9F7FA5ADE447F /* Pods-FHXPopGesture_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2476C7D39AFB8D3CD660C2D2EC6387 /* Pods-FHXPopGesture_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8378D55C27A01399AB99C92090CA6AB9 /* PopGesture+nav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2AA05002980DD7CC05A3E50275F618 /* PopGesture+nav.swift */; };
+		8A0D388D6B358393ADF311A1EBF5FEA5 /* FHXPopGesture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B087FA571672407962F431C85996FF82 /* FHXPopGesture-dummy.m */; };
+		CB72C89027FA4A1B4F31E4E0120B6447 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		D1BA5722E3FA96C3FEA0CC5BB477784B /* FHXPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 60A0468A9DF6C639F306BA59A236D45A /* FHXPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7C34584C9D203AA5E729B9881CDA8C4 /* Pods-FHXPopGesture_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D8CA0DC96B90E55D0E10808B50125F /* Pods-FHXPopGesture_Example-dummy.m */; };
+		E34D0C02537319F87330B1439D5002AE /* PopGesture+vc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B457B1851BC11B8174627F8026138BC8 /* PopGesture+vc.swift */; };
+		EAB38A1DC6767DDDEB4F71B18D597D9A /* Pods-FHXPopGesture_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD4174F8AA71B8ACD03DAC4F0D8ED70 /* Pods-FHXPopGesture_Tests-dummy.m */; };
+		FE5B09C9A4BAECE40EBBDD51D7C852ED /* PopGesture+ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F530B7EC72AF24C0948CA69A3352A88 /* PopGesture+ScrollView.swift */; };
+		FEDA2D8146CFD5496A34FB0E0E1357B0 /* PopGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5000D34D18A7A6D212640E53728FC577 /* PopGesture.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3550EC94E0DA1CF6F59640E2B4499D4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01734AB1A3800D9D1D9F360B8F057270;
+			remoteInfo = FHXPopGesture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C26AB8813CDA3C36DEDF6F0826D964E /* FHXPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FHXPopGesture.framework; path = FHXPopGesture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C4ACCCED4AD96F483F49E3C255A6B29 /* Pods-FHXPopGesture_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FHXPopGesture_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C8074B4622A94B4CFD75BD2AA9C6709 /* Pods-FHXPopGesture_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FHXPopGesture_Example.modulemap"; sourceTree = "<group>"; };
+		0F5EECCAB32832D9C88AD2F961B6B15E /* Pods-FHXPopGesture_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FHXPopGesture_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0F80B5A844E9B79440A596EE6CBF5CAC /* Pods-FHXPopGesture_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FHXPopGesture_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		17D8CA0DC96B90E55D0E10808B50125F /* Pods-FHXPopGesture_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FHXPopGesture_Example-dummy.m"; sourceTree = "<group>"; };
+		1B2AA05002980DD7CC05A3E50275F618 /* PopGesture+nav.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopGesture+nav.swift"; path = "Sources/PopGesture+nav.swift"; sourceTree = "<group>"; };
+		1FAA4FB7E92C6EEDC91094CB482AC46B /* Pods-FHXPopGesture_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FHXPopGesture_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2940212A5134748CF8F1AF2D9257E3C9 /* Pods-FHXPopGesture_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FHXPopGesture_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2F220EE2A0587FFC7ED8359E9BA59084 /* Pods-FHXPopGesture_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FHXPopGesture_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3712365FC6D214502B7CCFBA47DFEFCD /* Pods-FHXPopGesture_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FHXPopGesture_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3D2AF3CCFA7750731BDCE221A1A7E0D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		45B017A2E0F8B53A8E3631D475BEFA25 /* Pods-FHXPopGesture_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FHXPopGesture_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		45F284CBB5119AA8FA0E2AEFA70B05C8 /* Pods_FHXPopGesture_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FHXPopGesture_Example.framework; path = "Pods-FHXPopGesture_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B80DA96D794214552D602E885744604 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5000D34D18A7A6D212640E53728FC577 /* PopGesture.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopGesture.swift; path = Sources/PopGesture.swift; sourceTree = "<group>"; };
+		5413B38F0B78DA259295451B0C39039A /* Pods_FHXPopGesture_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FHXPopGesture_Tests.framework; path = "Pods-FHXPopGesture_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5DC281256775489D086417CDE192FA /* FHXPopGesture-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FHXPopGesture-umbrella.h"; sourceTree = "<group>"; };
+		60A0468A9DF6C639F306BA59A236D45A /* FHXPopGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FHXPopGesture.h; path = Sources/FHXPopGesture.h; sourceTree = "<group>"; };
+		6AD4174F8AA71B8ACD03DAC4F0D8ED70 /* Pods-FHXPopGesture_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FHXPopGesture_Tests-dummy.m"; sourceTree = "<group>"; };
+		6D8F11D12A11FAD9B30F907AD8AE3D08 /* Pods-FHXPopGesture_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FHXPopGesture_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6FA4E28D004F658829ECCDF37224A1E9 /* FHXPopGesture.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FHXPopGesture.xcconfig; sourceTree = "<group>"; };
+		732350148B28A2A8182CA1F6EAAF835A /* Pods-FHXPopGesture_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FHXPopGesture_Tests-resources.sh"; sourceTree = "<group>"; };
+		7B2476C7D39AFB8D3CD660C2D2EC6387 /* Pods-FHXPopGesture_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FHXPopGesture_Example-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F530B7EC72AF24C0948CA69A3352A88 /* PopGesture+ScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopGesture+ScrollView.swift"; path = "Sources/PopGesture+ScrollView.swift"; sourceTree = "<group>"; };
+		A5E970824C9D3ABF1BD391E818F61340 /* Pods-FHXPopGesture_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FHXPopGesture_Example-resources.sh"; sourceTree = "<group>"; };
+		AF9360F2EBB95B1A02A31EADA30958C7 /* FHXPopGesture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FHXPopGesture-prefix.pch"; sourceTree = "<group>"; };
+		B087FA571672407962F431C85996FF82 /* FHXPopGesture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FHXPopGesture-dummy.m"; sourceTree = "<group>"; };
+		B0ACFF931DD6612DD6ACD2BA1D40C3A9 /* Pods-FHXPopGesture_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FHXPopGesture_Tests.modulemap"; sourceTree = "<group>"; };
+		B0E6979717B240315D682D320F1F4C4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B34161882217E31FC0F0C5554CAAC45B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B457B1851BC11B8174627F8026138BC8 /* PopGesture+vc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopGesture+vc.swift"; path = "Sources/PopGesture+vc.swift"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BC22A6DF2CF06BC352BD3DEF2A0BF6BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C1A91AD1E7D544A0DDA4F5272A5EF0 /* PopGesture+delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopGesture+delegate.swift"; path = "Sources/PopGesture+delegate.swift"; sourceTree = "<group>"; };
+		D0894B5F91FB842C8ADA02FA789356D7 /* Pods-FHXPopGesture_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FHXPopGesture_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E2713724052FEAD2F037F12D623AC084 /* FHXPopGesture.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FHXPopGesture.modulemap; sourceTree = "<group>"; };
+		E8183F38A830CD3583A9286555371805 /* FHXPopGesture.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FHXPopGesture.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F5C9012A5AB8B9687C70F703C24B4A03 /* Pods-FHXPopGesture_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FHXPopGesture_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27438C926A8592CB864E8C8605F2CC84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C9D12193CAB1A31E62A2CE103DFC3E1 /* Foundation.framework in Frameworks */,
+				6184AC94C264D75955EC685CD0EE8F9B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BBBFA31AE9A421484D300B0B1A390D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB72C89027FA4A1B4F31E4E0120B6447 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72A4514AFF410C9E89B7C6120EC440F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601F0B2AE1ADD32EE902F45A55A39DE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5431B8F6FACA9FAA09A9A28E43DF8240 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E8183F38A830CD3583A9286555371805 /* FHXPopGesture.podspec */,
+				3D2AF3CCFA7750731BDCE221A1A7E0D5 /* LICENSE */,
+				4B80DA96D794214552D602E885744604 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		642E5E81A595A41E5F6DD7F4AFEB8B2C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2713724052FEAD2F037F12D623AC084 /* FHXPopGesture.modulemap */,
+				6FA4E28D004F658829ECCDF37224A1E9 /* FHXPopGesture.xcconfig */,
+				B087FA571672407962F431C85996FF82 /* FHXPopGesture-dummy.m */,
+				AF9360F2EBB95B1A02A31EADA30958C7 /* FHXPopGesture-prefix.pch */,
+				5F5DC281256775489D086417CDE192FA /* FHXPopGesture-umbrella.h */,
+				B34161882217E31FC0F0C5554CAAC45B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FHXPopGesture";
+			sourceTree = "<group>";
+		};
+		65245DEF75972D373F5A5D4748D642B5 /* FHXPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				60A0468A9DF6C639F306BA59A236D45A /* FHXPopGesture.h */,
+				5000D34D18A7A6D212640E53728FC577 /* PopGesture.swift */,
+				C9C1A91AD1E7D544A0DDA4F5272A5EF0 /* PopGesture+delegate.swift */,
+				1B2AA05002980DD7CC05A3E50275F618 /* PopGesture+nav.swift */,
+				9F530B7EC72AF24C0948CA69A3352A88 /* PopGesture+ScrollView.swift */,
+				B457B1851BC11B8174627F8026138BC8 /* PopGesture+vc.swift */,
+				5431B8F6FACA9FAA09A9A28E43DF8240 /* Pod */,
+				642E5E81A595A41E5F6DD7F4AFEB8B2C /* Support Files */,
+			);
+			name = FHXPopGesture;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6CE0672142B1ED8213C4090BF2741449 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C26AB8813CDA3C36DEDF6F0826D964E /* FHXPopGesture.framework */,
+				45F284CBB5119AA8FA0E2AEFA70B05C8 /* Pods_FHXPopGesture_Example.framework */,
+				5413B38F0B78DA259295451B0C39039A /* Pods_FHXPopGesture_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FF791890AFDFE61B9691335A91300F45 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				6CE0672142B1ED8213C4090BF2741449 /* Products */,
+				95164BCEA22C44BB0F28D7EE8D79DBBD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		95164BCEA22C44BB0F28D7EE8D79DBBD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFF4D61405B33CC514C3EA907A87675D /* Pods-FHXPopGesture_Example */,
+				CFA4D36AD61145C3882E73DF258059A4 /* Pods-FHXPopGesture_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CFA4D36AD61145C3882E73DF258059A4 /* Pods-FHXPopGesture_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B0E6979717B240315D682D320F1F4C4D /* Info.plist */,
+				B0ACFF931DD6612DD6ACD2BA1D40C3A9 /* Pods-FHXPopGesture_Tests.modulemap */,
+				45B017A2E0F8B53A8E3631D475BEFA25 /* Pods-FHXPopGesture_Tests-acknowledgements.markdown */,
+				1FAA4FB7E92C6EEDC91094CB482AC46B /* Pods-FHXPopGesture_Tests-acknowledgements.plist */,
+				6AD4174F8AA71B8ACD03DAC4F0D8ED70 /* Pods-FHXPopGesture_Tests-dummy.m */,
+				2940212A5134748CF8F1AF2D9257E3C9 /* Pods-FHXPopGesture_Tests-frameworks.sh */,
+				732350148B28A2A8182CA1F6EAAF835A /* Pods-FHXPopGesture_Tests-resources.sh */,
+				0F5EECCAB32832D9C88AD2F961B6B15E /* Pods-FHXPopGesture_Tests-umbrella.h */,
+				D0894B5F91FB842C8ADA02FA789356D7 /* Pods-FHXPopGesture_Tests.debug.xcconfig */,
+				F5C9012A5AB8B9687C70F703C24B4A03 /* Pods-FHXPopGesture_Tests.release.xcconfig */,
+			);
+			name = "Pods-FHXPopGesture_Tests";
+			path = "Target Support Files/Pods-FHXPopGesture_Tests";
+			sourceTree = "<group>";
+		};
+		FF791890AFDFE61B9691335A91300F45 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65245DEF75972D373F5A5D4748D642B5 /* FHXPopGesture */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FFF4D61405B33CC514C3EA907A87675D /* Pods-FHXPopGesture_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BC22A6DF2CF06BC352BD3DEF2A0BF6BC /* Info.plist */,
+				0C8074B4622A94B4CFD75BD2AA9C6709 /* Pods-FHXPopGesture_Example.modulemap */,
+				0C4ACCCED4AD96F483F49E3C255A6B29 /* Pods-FHXPopGesture_Example-acknowledgements.markdown */,
+				3712365FC6D214502B7CCFBA47DFEFCD /* Pods-FHXPopGesture_Example-acknowledgements.plist */,
+				17D8CA0DC96B90E55D0E10808B50125F /* Pods-FHXPopGesture_Example-dummy.m */,
+				6D8F11D12A11FAD9B30F907AD8AE3D08 /* Pods-FHXPopGesture_Example-frameworks.sh */,
+				A5E970824C9D3ABF1BD391E818F61340 /* Pods-FHXPopGesture_Example-resources.sh */,
+				7B2476C7D39AFB8D3CD660C2D2EC6387 /* Pods-FHXPopGesture_Example-umbrella.h */,
+				0F80B5A844E9B79440A596EE6CBF5CAC /* Pods-FHXPopGesture_Example.debug.xcconfig */,
+				2F220EE2A0587FFC7ED8359E9BA59084 /* Pods-FHXPopGesture_Example.release.xcconfig */,
+			);
+			name = "Pods-FHXPopGesture_Example";
+			path = "Target Support Files/Pods-FHXPopGesture_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5997967C3C3B0A23B6E633CF78791CFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D69AFADB1D443B726A9F7FA5ADE447F /* Pods-FHXPopGesture_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B16B9D4FDE42EDC68B77B00E0FBC077 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557D8EB33C3600E274E75F4B859E3B61 /* Pods-FHXPopGesture_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5E760A733FFA8538FFEF5B249FEC8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2540C1337FD7C5E3F2C4E012C7665F5D /* FHXPopGesture-umbrella.h in Headers */,
+				D1BA5722E3FA96C3FEA0CC5BB477784B /* FHXPopGesture.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01734AB1A3800D9D1D9F360B8F057270 /* FHXPopGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63791AEAC9CFC40A8FF445E7AA71EED /* Build configuration list for PBXNativeTarget "FHXPopGesture" */;
+			buildPhases = (
+				6B5D60542BDE0E8AFC470F07A55929C9 /* Sources */,
+				27438C926A8592CB864E8C8605F2CC84 /* Frameworks */,
+				AF5E760A733FFA8538FFEF5B249FEC8C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FHXPopGesture;
+			productName = FHXPopGesture;
+			productReference = 0C26AB8813CDA3C36DEDF6F0826D964E /* FHXPopGesture.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88C3235F5B3AFD3F23A655A9203A9215 /* Pods-FHXPopGesture_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9158257DA1D052C0024392AE6DEBF478 /* Build configuration list for PBXNativeTarget "Pods-FHXPopGesture_Example" */;
+			buildPhases = (
+				E23896FEA9431EB64B359953935AFE44 /* Sources */,
+				72A4514AFF410C9E89B7C6120EC440F4 /* Frameworks */,
+				5997967C3C3B0A23B6E633CF78791CFC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8E0871B19CCE927A11EBC9D6F7B921A /* PBXTargetDependency */,
+			);
+			name = "Pods-FHXPopGesture_Example";
+			productName = "Pods-FHXPopGesture_Example";
+			productReference = 45F284CBB5119AA8FA0E2AEFA70B05C8 /* Pods_FHXPopGesture_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C513BFB2D63EFEF447684ABD4AA933EE /* Pods-FHXPopGesture_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB7E5C9F8239254E914AD770C12BF269 /* Build configuration list for PBXNativeTarget "Pods-FHXPopGesture_Tests" */;
+			buildPhases = (
+				EEFC3F1146072EC70489D927A56F4B06 /* Sources */,
+				6BBBFA31AE9A421484D300B0B1A390D1 /* Frameworks */,
+				8B16B9D4FDE42EDC68B77B00E0FBC077 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FHXPopGesture_Tests";
+			productName = "Pods-FHXPopGesture_Tests";
+			productReference = 5413B38F0B78DA259295451B0C39039A /* Pods_FHXPopGesture_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6CE0672142B1ED8213C4090BF2741449 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01734AB1A3800D9D1D9F360B8F057270 /* FHXPopGesture */,
+				88C3235F5B3AFD3F23A655A9203A9215 /* Pods-FHXPopGesture_Example */,
+				C513BFB2D63EFEF447684ABD4AA933EE /* Pods-FHXPopGesture_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B5D60542BDE0E8AFC470F07A55929C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0D388D6B358393ADF311A1EBF5FEA5 /* FHXPopGesture-dummy.m in Sources */,
+				04818EBA590DA2088137FC606C552536 /* PopGesture+delegate.swift in Sources */,
+				8378D55C27A01399AB99C92090CA6AB9 /* PopGesture+nav.swift in Sources */,
+				FE5B09C9A4BAECE40EBBDD51D7C852ED /* PopGesture+ScrollView.swift in Sources */,
+				E34D0C02537319F87330B1439D5002AE /* PopGesture+vc.swift in Sources */,
+				FEDA2D8146CFD5496A34FB0E0E1357B0 /* PopGesture.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23896FEA9431EB64B359953935AFE44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C34584C9D203AA5E729B9881CDA8C4 /* Pods-FHXPopGesture_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFC3F1146072EC70489D927A56F4B06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB38A1DC6767DDDEB4F71B18D597D9A /* Pods-FHXPopGesture_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8E0871B19CCE927A11EBC9D6F7B921A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FHXPopGesture;
+			target = 01734AB1A3800D9D1D9F360B8F057270 /* FHXPopGesture */;
+			targetProxy = 3550EC94E0DA1CF6F59640E2B4499D4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04F3025C268689CE605BA37968B3E9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FA4E28D004F658829ECCDF37224A1E9 /* FHXPopGesture.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FHXPopGesture/FHXPopGesture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FHXPopGesture/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FHXPopGesture/FHXPopGesture.modulemap";
+				PRODUCT_NAME = FHXPopGesture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5E6ADF083CC98E945BBDA5BA99950397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C9012A5AB8B9687C70F703C24B4A03 /* Pods-FHXPopGesture_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FHXPopGesture_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FHXPopGesture_Tests/Pods-FHXPopGesture_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FHXPopGesture_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B06A5D5F5263FD22FEEED0E8AF229F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FA4E28D004F658829ECCDF37224A1E9 /* FHXPopGesture.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FHXPopGesture/FHXPopGesture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FHXPopGesture/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FHXPopGesture/FHXPopGesture.modulemap";
+				PRODUCT_NAME = FHXPopGesture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2A69835B00A204864DAAD7142E6AEC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F220EE2A0587FFC7ED8359E9BA59084 /* Pods-FHXPopGesture_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FHXPopGesture_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FHXPopGesture_Example/Pods-FHXPopGesture_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FHXPopGesture_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA70B88DB350700EE86EE12503C2F483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0894B5F91FB842C8ADA02FA789356D7 /* Pods-FHXPopGesture_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FHXPopGesture_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FHXPopGesture_Tests/Pods-FHXPopGesture_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FHXPopGesture_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E86DDD38859BDB9A496C6E805002C204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F80B5A844E9B79440A596EE6CBF5CAC /* Pods-FHXPopGesture_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FHXPopGesture_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FHXPopGesture_Example/Pods-FHXPopGesture_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FHXPopGesture_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9158257DA1D052C0024392AE6DEBF478 /* Build configuration list for PBXNativeTarget "Pods-FHXPopGesture_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E86DDD38859BDB9A496C6E805002C204 /* Debug */,
+				B2A69835B00A204864DAAD7142E6AEC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B63791AEAC9CFC40A8FF445E7AA71EED /* Build configuration list for PBXNativeTarget "FHXPopGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06A5D5F5263FD22FEEED0E8AF229F01 /* Debug */,
+				04F3025C268689CE605BA37968B3E9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB7E5C9F8239254E914AD770C12BF269 /* Build configuration list for PBXNativeTarget "Pods-FHXPopGesture_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA70B88DB350700EE86EE12503C2F483 /* Debug */,
+				5E6ADF083CC98E945BBDA5BA99950397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
